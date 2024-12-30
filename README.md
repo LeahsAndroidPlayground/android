@@ -1,4 +1,7 @@
-# Local manifests
-If you want use(for easy) this then
+# Leah's local manifests
 
-```git clone https://github.com/Exynos9611Development/local_manifests .repo/local_manifests```
+With a Lineage-based rom repo initialized, run this:
+
+```
+git clone https://github.com/LeahsAndroidPlayground/android .repo/local_manifests
+```
