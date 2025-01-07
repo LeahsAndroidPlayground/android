@@ -53,7 +53,7 @@
   
   <!-- Devices trees -->
   
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="Development" />
+  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="leah" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4-bringup-priv" />
   <project path="device/samsung/a51" name="android_device_samsung_a51" remote="leah" revision="lineage-22.1" />
   <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" />
