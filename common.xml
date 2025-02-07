@@ -29,28 +29,32 @@
     fetch="https://github.com/KProfiles/"
     revision="main" />
 
+  <remote name="LineageOS-22.1"
+    fetch="https://github.com/LineageOS/"
+    revision="lineage-22.1" />
+
   <!-- Sync hardware -->
   
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linux4-bringup-priv" clone-depth="1" /> 
-  <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linux4-bringup-priv" clone-depth="1" />
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linux4-bringup-priv" clone-depth="1" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS-22.1" clone-depth="1" /> 
+  <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS-22.1" clone-depth="1" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS-22.1" clone-depth="1" />
   
   <!-- Kernel -->
   
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="SomethingNew-15" clone-depth="1" />
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="Development" revision="AOSP" clone-depth="1" />
   
   <!-- Devices trees -->
   
   <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="leah" />
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4-bringup-priv" />
+  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="Lineage-22.1" />
   <project path="device/samsung/a51" name="android_device_samsung_a51" remote="leah" revision="lineage-22.1" />
   <project path="device/samsung/f41" name="android_device_samsung_f41" remote="Development" />
   <project path="device/samsung/m31s" name="android_device_samsung_m31s" remote="Development" />
